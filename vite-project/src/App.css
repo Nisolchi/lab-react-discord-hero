@@ -20,8 +20,28 @@
 
  
 }
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .title{
-  font-family: 'Popins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 80px;
   width: 45vw;
@@ -33,7 +53,7 @@
 
 }
 .body p{
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-size: larger;
   color: white;
   display: flex;
@@ -68,7 +88,7 @@
   padding: 2vw;
 
 }
-.menu-Icon{
+.icon{
   width: 8vw;
   height:10vh;
   margin-left: 45vw;
@@ -78,6 +98,7 @@
 .btn1{
   width: 30vw;
   height: 8vh;
+  font-family: "Roboto", sans-serif;
   background-color:white;
   border-radius: 3vw;
   color: var(--Mobile-background,black);
@@ -87,6 +108,7 @@
 .btn2{
   width: 40vw;
   height: 7vh;
+  font-family: "Roboto", sans-serif;
   background-color: #000;
   border-radius: 3vw;
   color: var(--Mobile-background, white);

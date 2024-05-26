@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import Header from './assets/Header'
-import Body from './assets/Body'
+import { useState } from 'react';
+import Body from './assets/Body';
+import Header from './assets/Header';
 import './App.css'
 
 function App() {

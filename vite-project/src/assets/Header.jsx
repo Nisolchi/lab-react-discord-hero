@@ -1,15 +1,21 @@
-import discordLogo from "./images/discord-logo-white.png"
-import menuIcon from "./images/menu-icon.png"
+import discordLogo from "./images/discord-logo-white.png";
+import icon from "./images/menu-icon.png";
+
 
 function Header(){
 
     return(
 
-    <header className="header">
-
-        <img className="discordlogo" src={discordLogo} alt="discordlogo"/>
-        <img className="menu-Icon" src={menuIcon} alt="" />
-    </header>
-    )
+    <>
+    <div className="header">
+<header >
+  <img className="discordlogo" src={discordLogo} alt="discordlogo" />
+  <img className="icon" src={icon} alt="icon" />
+</header>
+</div>
+    </>
+    
+    );
 }
-export default Header
+
+export default Header;

@@ -1,9 +1,12 @@
-
 import background from "./images/discord-background.png";
+
 
 function Body() {
   return (
+
+   
     <div className="body">
+     
       <h1 className="title">IMAGINE A PLACE...</h1>
       <p>
         ...where you can belong to a school club, a gaming group, or a worldwide
@@ -12,12 +15,13 @@ function Body() {
         often
       </p>
       <div className="btns">
-      <button className="btn1">Download for Mac</button>
-      <button className="btn2">Open Discord in your browser</button>
-
+        <button className="btn1">Download for Mac</button>
+        <button className="btn2">Open Discord in your browser</button>
       </div>
       <img className="img" src={background} alt="backgound" />
     </div>
+
+
   );
 }
 export default Body;
